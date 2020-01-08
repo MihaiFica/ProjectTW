@@ -1,0 +1,135 @@
+
+@keyframes translatie {
+   0% {transform:translate(0em,-4em);}
+   20%{transform:translate(0em,0em);}
+   40%{transform:translate(0em,-1.1em);}
+   60%{transform:translate(0em,0em);}
+   80%{transform:translate(0em,-0.4em);}
+   100%{transform:translate(0em,0em);}
+}
+@keyframes puls 
+{	
+	0%{opacity:1;}
+	50%{opacity:0;}
+	100%{opacity:1;}	
+}
+@keyframes rotatie
+{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(180deg);}
+	100%{transform:rotate(0deg);}
+}
+
+#emblema 
+{
+	 position:absolute;
+	 top:1.6em;
+     right:0.5em;
+     width:5.5em; 
+     height:4.8em;
+	 animation:rotatie 3.5s,puls 4s 4s infinite;
+}
+
+body
+{
+	background:#f2f2f2;
+}
+h1
+{
+	color:gray;
+	text-align:center;
+	letter-spacing:0.03em;
+	text-transform:capitalize;
+	text-decoration:none;
+	word-spacing:0.1em;
+	font-size:3.1em;
+}
+#fb img
+{
+	 position: absolute;
+	 top:0.2em;
+     right:0.4em;
+     width:1.2em; 
+     height:1.2em;
+	 animation-name:translatie;
+     animation-duration:8s;
+	 animation-timing-function:ease;
+}
+#tw img
+{
+  position: absolute;
+  top:0.2em;
+  right:1.8em;
+  width:1.2em; 
+  height:1.2em;
+  animation-name:translatie;
+  animation-duration:7s;
+  animation-timing-function:ease;
+}
+audio
+{
+  animation-name:translatie;
+  animation-duration:6s;
+  animation-timing-function:ease;
+}
+span
+{
+	color:red;
+}
+ul
+{
+	list-style-type:none;
+	text-align:center;
+	font-size:1em;
+}
+a:link,a:visited 
+{
+	color:gray;
+	font-size:2em;
+	text-decoration:none;
+}
+a:hover,a:active 
+{
+	color:red;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content a {
+	display: block;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+@media only screen and (min-width:600px) /*mare*/
+{
+li
+{
+    display:inline;
+	margin:0.01% 0.7%;
+}
+
+.dropdown-content 
+{
+  display:none;
+  position:absolute;
+  background-color:#f2f2f2;
+  min-width:10em;
+  color:red;
+  text-align:left;
+  font-size:0.8rem;
+  z-index:2;
+}
+}
+@media only screen and (min-width:321px) and (max-width:599px)/*mici*/
+{
+.dropdown-content 
+{
+  display: none;
+  position: relative;
+  color:red;
+  text-align:center;
+  font-size:0.8rem;
+}
+}

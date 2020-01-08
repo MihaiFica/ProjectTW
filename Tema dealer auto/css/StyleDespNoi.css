@@ -1,0 +1,382 @@
+
+body
+{
+	background:#f2f2f2;
+}
+h1
+{
+	font-family:Arial;
+	color:gray;
+	text-align:center;
+	letter-spacing:0.03em;
+	text-decoration:none;
+	word-spacing:0.1em;
+	font-size:3.1em;
+}
+.Paragraf
+{
+	color:gray;
+	font-family:Arial;
+    margin-right:33em;
+	line-height:normal;
+	text-decoration:none;
+	text-indent:10%;
+	word-spacing:normal;
+}
+@media only screen and (min-width:1400px) /*mare*/
+{
+#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:30em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+	display:none;
+}
+#poza4
+{
+	display:none;
+} 
+#poza5
+{
+	display:none;
+} 
+#poza6
+{
+	display:none;
+}   
+#poza7
+{
+	display:none;
+} 
+#poza8
+{
+	display:none;
+}
+}
+@media only screen  and (min-width:1250px) and (max-width:1399px) /*mare*/
+{
+#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:29em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+  position:absolute;
+  top:50em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza4
+{
+	display:none;
+} 
+#poza5
+{
+	display:none;
+} 
+#poza6
+{
+	display:none;
+}   
+#poza7
+{
+	display:none;
+} 
+#poza8
+{
+	display:none;
+}
+}
+@media only screen  and (min-width:1100px) and (max-width:1249px) /*mare*/
+{
+#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:30em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+  position:absolute;
+  top:50em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza4
+{
+  position:absolute;
+  top:70em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza5
+{
+	display:none;
+}
+#poza6
+{
+	display:none;
+}    
+#poza7
+{
+	display:none;
+} 
+#poza8
+{
+	display:none;
+}
+}
+@media only screen  and (min-width:950px) and (max-width:1099px)
+{
+#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:30em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+  position:absolute;
+  top:50em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza4
+{
+  position:absolute;
+  top:70em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza5
+{
+	display:none;
+} 
+#poza6
+{
+	display:none;
+}   
+#poza7
+{
+	display:none;
+} 
+#poza8
+{
+	display:none;
+}
+}
+@media only screen  and (min-width:800px) and (max-width:949px)
+{
+	#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:30em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+  position:absolute;
+  top:50em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza4
+{
+  position:absolute;
+  top:70em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza5
+{
+  position:absolute;
+  top:90em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}  
+#poza6
+{
+  position:absolute;
+  top:110em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza7
+{
+    display:none;	
+}
+#poza8
+{
+	display:none;
+}
+}
+@media only screen  and (min-width:780px) and (max-width:799px)
+{
+	#poza1 
+{ 
+  position:absolute;
+  top:10em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza2
+{
+  position:absolute;
+  top:30em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza3 
+{
+  position:absolute;
+  top:50em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza4
+{
+  position:absolute;
+  top:70em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza5
+{
+  position:absolute;
+  top:90em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}  
+#poza6
+{
+  position:absolute;
+  top:110em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+} 
+#poza7
+{
+  position:absolute;
+  top:130em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+#poza8
+{
+  position:absolute;
+  top:150em;
+  right:0.5em;
+  width:32em;
+  height:19em;
+}
+}
+@media only screen  and (max-width:779px)
+{
+.Paragraf
+{
+    margin-right:0em;
+}
+#poza1 
+{ 
+  display:none;
+}
+#poza2
+{
+  display:none;
+}
+#poza3 
+{
+  display:none;
+}
+#poza4
+{
+  display:none;
+} 
+#poza5
+{
+  display:none;
+}  
+#poza6
+{
+  display:none;
+}  
+#poza7
+{
+  display:none;
+} 
+#poza8
+{
+  display:none;
+}
+}

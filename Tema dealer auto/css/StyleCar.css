@@ -1,0 +1,115 @@
+table,th,td 
+{
+	background:#f2f2f2;
+	border:0.05em solid gray;
+	font-size:1.1em;
+ 	margin-left:auto;
+    margin-right:auto;
+	width:50vw;
+}
+td
+{
+	padding:1em;
+}
+
+h1 
+{
+	color:gray;
+	text-align:center;
+	letter-spacing:0.03em;
+	text-transform:capitalize;
+	text-decoration:none;
+	word-spacing:0.1em;
+	font-size:3.1em;
+}
+h2
+{
+	color:gray;
+	text-align:center;
+	letter-spacing:0.03em;
+	text-transform:capitalize;
+	text-decoration:none;
+	word-spacing:0.1em;
+	font-size:2em;
+}
+img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  min-height:10em;
+  min-width:19.5em;
+  width:50vw;
+}
+#obtiuni
+{
+	background:#f2f2f2;
+	border:0.05em solid gray;
+	font-size:1.1em;
+ 	margin-left:auto;
+    margin-right:auto;
+	width:50vw;
+}
+#produse
+{
+	background:#f2f2f2;
+	border:0.05em solid gray;
+	font-size:1.1em;
+ 	margin-left:auto;
+    margin-right:auto;
+	width:50vw;
+}
+#buton
+{
+	background:#f2f2f2;
+	border:0.05em solid gray;
+	font-size:2em;
+ 	margin:auto;
+    display:block;
+	width:50vw;
+}
+#cauta
+{
+	font-size:1em;
+}
+#categorie
+{
+	font-size:1em;
+}
+#firma
+{
+font-size:1em;
+}
+#pretMin
+{
+	font-size:1em;
+}
+#pretMax
+{
+	font-size:1em;
+}
+#obtiuni
+{
+	font-size:1.3em;
+}
+#cosrl
+{
+	background:#f2f2f2;
+	border:0.05em solid gray;
+	font-size:2em;
+ 	position: fixed;
+    top: 1em;
+    right: 0.3em;
+	width:15vw;
+}
+.cos
+{
+	background:#f2f2f2;
+	border:0.1em solid gray;
+	font-size:1.1em;
+ 	margin-left:auto;
+    margin-right:auto;
+	position: fixed;
+    top: 4.22em;
+    right: 0.48em;
+	width:15vw;
+}
